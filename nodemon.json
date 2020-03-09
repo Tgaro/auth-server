@@ -1,0 +1,7 @@
+{
+    "watch": [
+        "src"
+    ],
+    "ext": "js",
+    "exec": "node --inspect -r dotenv/config -r ./src/main.js"
+}
